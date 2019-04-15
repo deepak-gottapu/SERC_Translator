@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/1TB/SERC/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/usr/local/home/rgrk6/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/58a29cdad20add780f902e289c62051d/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/usr/local/home/rgrk6/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/2e7a23cd630f0dd49750446874d76f3f/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

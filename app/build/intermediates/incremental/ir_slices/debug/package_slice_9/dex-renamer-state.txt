@@ -1,0 +1,4 @@
+#Thu Apr 11 16:18:54 CDT 2019
+base.0=/media/1TB/SERC/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

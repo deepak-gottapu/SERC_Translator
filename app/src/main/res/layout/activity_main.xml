@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="#ffeef7f0">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mst"
+            android:scaleX="0.8"
+            android:scaleY="0.8"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:hint="Enter text"
+        android:inputType="textImeMultiLine|textCapSentences"
+        />
+
+    <TextView
+        android:id="@+id/txtTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="Translation" />
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@android:drawable/presence_audio_online" />
+
+</LinearLayout>
+
+
